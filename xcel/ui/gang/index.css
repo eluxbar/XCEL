@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Akrobat-Black";
+    src: url("https://cdn.cmgstudios.net/content/fonts/Akrobat-Black.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gangHealthUI {
+    width: 290px;
+    height: 70px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    background: rgba(0, 0, 0, 0.555);
+    color: white;
+    position: relative;
+    padding-left: 20px;
+    border-radius: 10px;
+    top: 400px;
+}
+.death-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+.gangHealthUI .player-image {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 66px;
+    height: 65px;
+    border-radius: 10px;
+}
+.gangHealthUI .bar-text {
+    position: absolute;
+    width: 110%;
+    text-align: center;
+    color: black;
+    font-size: 9px;
+    bottom: 9px;
+}
+.gangHealthUI .armor-bar-text {
+    position: absolute;
+    top: 39.49px;
+    width: 110%;
+    text-align: center;
+    color: black;
+    font-size: 8.4px; 
+}
+.gangHealthUI .name {
+    padding: 15px;
+    margin-left: 41px;
+    font-family: 'Akrobat', Akrobat-Black;
+}
+.gangHealthUI .dead {
+    position: absolute;
+    top: 35px; 
+    left: 75px; 
+    color: red;
+    font-weight: bold;
+}
+.gangHealthUI .health-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 75px;
+    width: 200px;
+    height: 10px;
+    background-color: #56d740;
+    border-radius: 3px;
+}
+
+.gangHealthUI .armor-bar {
+    position: absolute;
+    top: 41px;
+    left: 75px;
+    width: 200px;
+    height: 7px;
+    background-color: #428fdd;
+    border-radius: 2px;
+}
+
+.gangHealthUI .health-bar-background {
+    position: absolute;
+    bottom: 10px;
+    left: 75px;
+    width: 229px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.5); 
+}
+
+.gangHealthUI .armor-bar-background {
+    position: absolute;
+    top: 41px;
+    left: 75px;
+    width: 229px;
+    height: 7px;
+    background-color: rgba(128, 128, 128, 0.5); 
+    border-radius: 2px;
+}

@@ -1,0 +1,587 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+.glow {
+    filter: drop-shadow(14px 1px 10px rgb(56, 56, 56));
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -1px;
+}
+
+@font-face {
+    font-family: "Akrobat-Bold";
+    src: url("https://cdn.cmgstudios.net/content/fonts/Akrobat-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Akrobat-Black";
+    src: url("https://cdn.cmgstudios.net/content/fonts/Akrobat-Black.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pm-container {
+    font-size: min(0.83vw, 1.5vh);
+    position: absolute;
+    display: grid;
+    width: 86vw;
+    height: 75vh;
+    margin: 14vh 7vw 8vh;
+    gap: 1.5em;
+    font-family: "Akrobat-Bold", sans-serif;
+    color: white;
+}
+
+.pm-container * {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pm-box {
+    display: grid;
+    gap: 1.5em;
+}
+
+.information-box {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    gap: 1.5em;
+}
+
+.rules-boxes {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    gap: 1.5em;
+}
+
+.wiki-boxes {
+    grid-column: 1 / 3;
+    grid-row: 1 / 12;
+}
+
+.information-boxes {
+    grid-column: 3 / 9;
+    grid-row: 1 / 12;
+    display: grid;
+    grid-template-rows: 1fr 1.1fr;
+    gap: 1.5em;
+}
+
+.button-boxes {
+    grid-row: 12 / 14;
+    grid-column: 1 / 9;
+    display: grid;
+    grid-template-columns: 242fr 229fr 229fr 268fr;
+    gap: 1.5em;
+    height: 100%;
+}
+
+.option-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: grid;
+    gap: 1.5em;
+}
+
+.inner-option {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 55%;
+    margin-left: 0.8em;
+}
+
+.line {
+    height: 70%;
+    width: 1.5%;
+    border-radius: 0.2em;
+}
+
+.pm-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.pm-tile {
+    position: relative;
+    background-color: rgba(4, 12, 23, 0.45);
+    border-style: solid;
+    border-color: rgba(25, 56, 71, 0.6);
+    border-width: 0.125em;
+    border-radius: 0.2em;
+}
+
+.option-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    margin-left: 1.5em;
+    justify-content: center;
+    align-items: start;
+}
+
+.top-title {
+    margin: 0;
+    font-weight: bold;
+    font-family: "Akrobat-Black";
+    font-size: 1.9em;
+}
+
+.bottom-text {
+    margin: 0;
+    font-size: 1.0em;
+    font-weight: bold;
+    font-family: "Akrobat-Black";
+}
+
+.red-line {
+    background-color: #c63534;
+}
+
+.red-text {
+    color: #c63534;
+}
+
+.green-line {
+    background-color: #91c737;
+}
+
+.green-text {
+    color: #91c737;
+}
+
+.blue-line {
+    background-color: #319db7;
+}
+
+.blue-text {
+    color: #319db7;
+}
+
+.inner-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.button-icon {
+    height: 90%;
+}
+
+.button-text {
+    width: 100%;
+    margin-bottom: 0.8em;
+    margin-left: 1em;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.button-title {
+    margin: 0;
+    font-family: "Akrobat-Black";
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.button-desc {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.minigames-count-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 0.75em;
+    margin-left: 0.2vw;
+}
+
+.minigames-glow-box {
+    width: 0.3vw;
+    height: 0.3vw;
+    background-color: #95df4d;
+    box-shadow: 0 0 0.2vw 0.1vw #95df4d;
+    margin-top: 5%;
+}
+
+.minigames-player-count {
+    font-size: 0.9em;
+}
+
+.minigames-img-container {
+    position: absolute;
+    height: 90%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    align-items: end;
+}
+
+.minigames-text-container {
+    position: absolute;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 4;
+    gap: 1em;
+}
+
+.minigames-title {
+    margin: 0;
+    font-size: 2.3em;
+    color: #181818;
+    font-family: "Akrobat-Black";
+    font-weight: bold;
+}
+
+.minigames-desc {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    max-height: 100%;
+}
+
+.minigames-img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 80%;
+}
+
+.minigames-info-container {
+    position: relative;
+}
+
+.minigames-info-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.minigames-shrink {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.minigames-info {
+    display: flex;
+    position: absolute;
+    background-color: rgba(14, 20, 23, 0.25);
+    width: 38%;
+    height: 100%;
+    border-radius: 0.5em;
+    align-items: center;
+}
+
+.minigames-text-title {
+    font-size: 1.2em;
+    font-family: "Akrobat-Black";
+}
+
+.minigames-text-desc {
+    font-size: 0.9em;
+}
+
+.minigames-icon-container {
+    position: relative;
+    width: min(28%, 5em);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minigames-player-count {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.minigames-button-text {
+    margin-left: 0.2em;
+}
+
+.minigames-icon {
+    max-height: 70%;
+    max-width: 90%;
+}
+
+.people-img {
+    max-height: 55%;
+}
+
+.wiki-img {
+    width: 100%;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    opacity: 80%;
+}
+
+.wiki-img-container {
+    position: absolute;
+    bottom: -0.4%;
+}
+
+.wiki-container {
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.wiki-title {
+    margin: 10% 0 0 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Akrobat-Black";
+}
+
+.wiki-button {
+    margin: 5% 0 10% 0;
+    border: 0;
+    background-color: #088bdd;
+    font-family: inherit;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    width: 32%;
+    height: 4.5%;
+    border-radius: 0.5em;
+}
+
+.wiki-text-tile {
+    background-color: rgba(14, 20, 23, 0.25);
+    text-align: center;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.wiki-desc {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.rules-container {
+    position: absolute;
+    display: grid;
+    padding: 1.5em 2.5em 3em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    gap: 1em;
+
+}
+
+.rules-title {
+    margin: 0;
+    text-align: left;
+    color: #088bdd;
+    font-weight: bold;
+    font-family: "Akrobat-Black";
+    font-size: 2.2em;
+}
+
+.generic-rules {
+    background-color: rgba(14, 20, 23, 0.25);
+    display: flex;
+    position: relative;
+    border-radius: 0.5em;
+}
+
+.rule-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 0.8em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.rule-title {
+    margin: 0;
+    font-weight: bold;
+    font-family: "Akrobat-Black";
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.main-rules {
+    grid-column: 1 / 5;
+    grid-row: 2 / 9;
+}
+
+.com-rules {
+    grid-column: 1 / 5;
+    grid-row:  9 / 16;
+}
+
+.logo-container {
+    position: absolute;
+    display: flex;
+    height: 17vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.information-container {
+    position: absolute;
+    display: grid;
+    padding: 0.5em 2.5em 1.5em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    gap: 0.5em;
+}
+
+.information-title {
+    margin: 0;
+    text-align: left;
+    color: #088bdd;
+    font-weight: bold;
+    font-family: "Akrobat-Black";
+    font-size: 2.2em;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.player-information-container {
+    position: relative;
+    background-color: rgba(14, 20, 23, 0.25);
+    grid-column: 1 / 8;
+    grid-row: 2 / 15;
+    border-radius: 0.5em;
+}
+
+.player-information-content {
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.info-name {
+    font-size: 2.8em;
+    font-family: "Akrobat-Black";
+}
+
+.info-dynamic {
+    font-family: "Akrobat-Black";
+    font-size: 1.3em;
+}
+
+.info-detail {
+    font-size: 1.5em;
+}
+
+.date-container {
+    position: relative;
+    align-items: center;
+    grid-column: 2 / 8;
+    grid-row: 1;
+}
+
+.date-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.date-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    font-family: "Akrobat-Bold";
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.store-icon {
+    border-bottom-left-radius: 0.1em;
+}
+
+.player-count-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 1em;
+    bottom: 1em;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    gap: 1em;
+}
+
+.glow-box {
+    width: 0.4vw;
+    height: 0.4vw;
+    background-color: #95df4d;
+    box-shadow: 0 0 0.2vw 0.1vw #95df4d;
+    margin-top: 0.5%;
+}
+
+.player-count {
+    font-size: 1.2em;
+}
+
+.xcel-button {
+    transition: all 0.2s ease-in-out;
+}
+
+.xcel-button:hover, .xcel-button-selected {
+    transform: scale(1.02);
+    cursor: pointer;
+}
