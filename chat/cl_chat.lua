@@ -1,4 +1,4 @@
-local hideChat = false 
+local hideChat = false  
 local chatInputActive = false
 local chatInputActivating = false
 local chatHidden = true
