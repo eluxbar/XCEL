@@ -1,6 +1,6 @@
 fx_version 'bodacious' -- hiyayouknob
 game 'gta5'
-
+-- slothid made these
 ui_page 'html/index.html'
 
 client_script 'cl_chat.lua'
