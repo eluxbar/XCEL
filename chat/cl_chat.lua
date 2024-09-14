@@ -1,5 +1,5 @@
 local hideChat = false
-local chatInputActive = false 
+local chatInputActive = false
 local chatInputActivating = false
 local chatHidden = true
 local chatLoaded = false
