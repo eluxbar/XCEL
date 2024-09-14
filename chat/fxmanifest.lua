@@ -1,6 +1,6 @@
 fx_version 'bodacious' -- hiyayouknob
 game 'gta5' --ggggg
--- slothid made these -- (wow im a jama
+-- slothid made these -- (wow im a l
 ui_page 'html/index.html'
 im the goatd
 client_script 'cl_chat.lua'
