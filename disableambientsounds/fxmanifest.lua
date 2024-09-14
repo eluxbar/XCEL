@@ -1,4 +1,4 @@
-fx_version 'cerulean' 
+fx_version 'cerulean'
 games { 'gta5' }
 
 author 'DikaN1337'
