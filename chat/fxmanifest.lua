@@ -1,4 +1,4 @@
-fx_version 'bodacious'
+fx_version 'bodacious' -- hi
 game 'gta5'
 
 ui_page 'html/index.html'
