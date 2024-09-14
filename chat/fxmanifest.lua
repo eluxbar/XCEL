@@ -1,4 +1,4 @@
-fx_version 'bodacious' -- hiyayou
+fx_version 'bodacious' -- hiyayoukn
 game 'gta5'
 
 ui_page 'html/index.html'
