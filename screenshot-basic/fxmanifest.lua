@@ -16,6 +16,7 @@
 ------------fx_version 'bodacious'
 ------------fx_version 'bodacious'
 ------------fx_version 'bodacious'
+------------fx_version 'bodacious'
 game 'common'
 
 client_script 'dist/client.js'
