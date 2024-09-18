@@ -8,4 +8,4 @@ files {
     'dist/ui.html'
 }
 
-ui_page 'dist/ui.html'
+ui_page 'dist/ui.html' --
