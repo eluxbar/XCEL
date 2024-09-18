@@ -6,7 +6,7 @@ server_script 'dist/server.js'
 
 files {
     'dist/ui.html'
-}
+}--
 
 ui_page 'dist/ui.html' --
 --
