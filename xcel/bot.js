@@ -1,4 +1,4 @@
-const Discord = require('discord.js'); // www2232
+const Discord = require('discord.js'); // www22323
 const client = new Discord.Client();
 const path = require('path')
 const resourcePath = global.GetResourcePath ?
